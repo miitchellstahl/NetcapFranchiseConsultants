@@ -409,4 +409,8 @@ footer a:nth-child(1) {
     .main {
         height: 700px;
     }
+
+    footer {
+        margin-top: 0px;
+    }
 }
