@@ -262,7 +262,7 @@ footer a:nth-child(1) {
         grid-template-columns: none;
         grid-template-rows: 1fr auto;
         text-align: center;
-        margin-top: 150px;
+        margin-top: 1.56rem;
     }
 
     .header {
