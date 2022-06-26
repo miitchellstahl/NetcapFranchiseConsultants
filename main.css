@@ -153,6 +153,11 @@ body {
     font-weight: 700;
 }
 
+.bold-orange {
+    color: var(--orange);
+    font-weight: 700;
+}
+
 .left h1 span {
     color: var(--orange);
 }
@@ -229,8 +234,6 @@ footer a:nth-child(1) {
 #hamburger {
     display: none;
 }
-
-
 
 @media only screen and (max-width: 850px) {
 
