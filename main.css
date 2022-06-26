@@ -212,7 +212,7 @@ footer {
 
 
 footer p {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--white);
     display: inline-block;
 }
@@ -247,8 +247,20 @@ footer a:nth-child(1) {
         display: none;
     }
 
+    #desktop-header {
+        align-items: center;
+        background-color: var(--transparentPurple);
+        padding: 0 20px;
+    }
+
     .header img {
         margin-top: 1.375rem;
+        margin-bottom: 1.375rem;
+    }
+
+    .header {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     #hamburger {
@@ -342,6 +354,10 @@ footer a:nth-child(1) {
         grid-template-columns: none;
         grid-template-rows: 1fr auto;
         text-align: center;
+    }
+
+    #welcome {
+        font-size: 35px;
     }
 
     .right {
