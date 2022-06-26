@@ -23,7 +23,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
     display: flex;
-    min-height: 100vh;
+    min-height: 100%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -119,7 +119,7 @@ body {
     justify-content: space-between;
     font-family: 'Martel Sans', sans-serif;
     color: var(--white);
-    height: 100%;
+    /* height: 100%; */
     /* max-width: 59%; */
 }
 
