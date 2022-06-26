@@ -104,7 +104,7 @@ body {
 }
 
 .main {
-    gap: 50px;
+    gap: 25px;
     display: grid;
     grid-template-columns: minmax(auto, 60%) minmax(20px, 279px);
     /* max-height: none; */
@@ -125,7 +125,6 @@ body {
 
 .welcome {
     color: var(--white);
-    margin-top: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -294,7 +293,9 @@ footer a:nth-child(1) {
     }
 
     #welcome {
+        margin-top: 0px;
         display: inline;
+        font-size: 40px;
     }
 
     .left h1 {
@@ -322,10 +323,6 @@ footer a:nth-child(1) {
         margin-left: 0;
     }
 
-    footer p {
-        font-size: 11px;
-    }
-
 
 }
 
@@ -342,7 +339,7 @@ footer a:nth-child(1) {
     }
 
     footer p {
-        font-size: 9px;
+        font-size: 13px;
     }
 
 
