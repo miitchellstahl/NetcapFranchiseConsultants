@@ -263,6 +263,7 @@ footer a:nth-child(1) {
     }
 
     #hamburger {
+        cursor: pointer;
         display: block;
         height: 44px;
         width: 44px;
@@ -373,6 +374,16 @@ footer a:nth-child(1) {
         display: none;
     }
 
+    footer p {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    footer p {
+        font-size: 9px;
+    }
 }
 
 @media only screen and (min-width: 1600px) {
