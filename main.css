@@ -33,6 +33,7 @@ body {
     --orange: #FB8500;
     --white: #FFFFFF;
     --transparentPurple: rgba(255, 255, 255, 0.39);
+    --grayPurple: #6E678F;
     --transparentPurpleNav: rgba(255, 255, 255, 0.1);
 }
 
@@ -283,8 +284,7 @@ footer a:nth-child(1) {
         margin-bottom: 0;
     }
 
-    .hamburger:hover span:nth-child(2) {
-        transform: translateX(10px);
+    .hamburger:hover span {
         background-color: var(--orange);
     }
 
@@ -316,7 +316,7 @@ footer a:nth-child(1) {
         width: 100%;
         z-index: 99;
         align-items: center;
-        background-color: var(--transparentPurple);
+        background-color: var(--grayPurple);
         padding: 0 20px;
     }
 
@@ -450,10 +450,6 @@ footer a:nth-child(1) {
         font-size: 11px;
     }
 
-    .hamburger:hover span:nth-child(2) {
-        transform: translateX(0px);
-        background-color: var(--white);
-    }
 
 }
 
