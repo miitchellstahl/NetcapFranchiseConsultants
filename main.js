@@ -4,7 +4,6 @@ const list = document.querySelector("#list");
 
 hamburger.addEventListener('click', function () {
 
-    alert("roy is coming");
-
+    alert("roy");
 
 })

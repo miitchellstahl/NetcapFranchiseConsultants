@@ -221,10 +221,11 @@ footer p {
     display: inline-block;
 }
 
-footer a {
+footer a img {
+    outline: white;
     margin-left: 17px;
-    height: 38px;
-    width: 38px;
+    height: 42px;
+    width: 42px;
 }
 
 footer a:nth-child(1) {
@@ -308,6 +309,10 @@ footer a:nth-child(1) {
 
     .right {
         max-width: 351px;
+    }
+
+    footer p {
+        font-size: 14px;
     }
 
 
