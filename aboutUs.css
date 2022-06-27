@@ -93,6 +93,11 @@
         order: -1;
     }
 
+    .banner {
+        margin-top: 6.56rem;
+    }
+
+
     .banner h1 {
         font-size: 35px;
     }
