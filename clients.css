@@ -5,6 +5,14 @@
     border-radius: 10px;
 }
 
+#about {
+    color: var(--white);
+}
+
+#clients {
+    color: var(--orange);
+}
+
 .client {
     margin-bottom: 15px;
 }

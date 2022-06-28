@@ -1,0 +1,89 @@
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Martel Sans', sans-serif;
+    color: var(--white);
+    height: 100%;
+}
+
+#clients {
+    color: var(--white);
+}
+
+#reviews {
+    color: var(--orange);
+}
+
+.main {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.quote-box {
+    border: none;
+}
+
+.left p {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+}
+
+.separate-add {
+    display: none;
+}
+
+.separate-last {
+    height: 100%;
+}
+
+#last-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.last {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Martel Sans', sans-serif;
+    color: var(--white);
+    height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .last {
+        display: flex;
+        height: 100%;
+        order: 1;
+    }
+
+    #delete {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    #delete {
+        display: block;
+    }
+
+    .last {
+        display: none;
+    }
+
+    .main {
+        grid-template-columns: none;
+    }
+
+}
