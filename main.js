@@ -3,6 +3,7 @@ const header = document.querySelector(".header");
 const list = document.querySelector("#list");
 const mobile_menu = document.querySelector(".mobile-nav");
 let newWidth = document.documentElement.clientWidth;
+let newHeight = document.documentElement.clientHeight;
 let lastScrollY = window.scrollY;
 
 hamburger.addEventListener('click', function () {
@@ -13,16 +14,14 @@ hamburger.addEventListener('click', function () {
 
 window.addEventListener('resize', function (window) {
     newWidth = document.documentElement.clientWidth;
-    if (newWidth > 850) {
-        console.log("YES");
-    }
+    newHeight = document.documentElement.clientHeight;
 });
 
 window.addEventListener('scroll', () => {
 
-    console.log(newWidth);
+    console.log(lastScrollY);
 
-    if (lastScrollY < window.scrollY && newWidth < 850) {
+    if (lastScrollY < window.scrollY && newWidth < 850 && lastScrollY > 100) {
         header.classList.add("nav--hidden");
     }
     else {
