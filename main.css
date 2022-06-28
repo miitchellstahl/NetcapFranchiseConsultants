@@ -426,6 +426,16 @@ footer a:nth-child(1) {
 
 }
 
+@media (hover: hover) and (pointer: fine) {
+    #list a:hover {
+        color: var(--orange);
+    }
+
+
+}
+
+
+
 @media only screen and (max-width: 550px) {
 
     footer img {

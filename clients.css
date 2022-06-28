@@ -2,6 +2,7 @@
     grid-template-columns: 1fr 1fr;
     border: 2px solid var(--transparentPurple);
     padding: 20px;
+    /* padding-top: 10px; */
     border-radius: 10px;
 }
 
@@ -54,4 +55,30 @@
         /* text-align: center; */
     }
 
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1500px;
+    }
+
+    .left p {
+        font-size: 20px;
+    }
+
+    .left h1 {
+        font-size: 50px;
+    }
+
+    #twenty-box {
+        font-size: 30px;
+    }
+
+    .main {
+        height: 750px;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
 }
