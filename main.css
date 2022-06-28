@@ -240,10 +240,12 @@ footer a:nth-child(1) {
 }
 
 .group {
+    align-items: center;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 
 .mobile-nav {
     display: none;
