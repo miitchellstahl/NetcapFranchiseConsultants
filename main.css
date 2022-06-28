@@ -328,9 +328,9 @@ footer a:nth-child(1) {
         margin-top: 6.56rem;
     }
 
-    .main.is-active {
-        margin-top: 19rem;
-    }
+    /* .main.is-active {
+        margin-top: 21rem;
+    } */
 
     .header {
         position: fixed;

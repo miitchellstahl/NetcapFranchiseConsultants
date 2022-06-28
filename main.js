@@ -2,6 +2,8 @@ const hamburger = document.querySelector('.hamburger');
 const header = document.querySelector(".header");
 const mobileNav = document.querySelector(".mobile-nav");
 const main = document.querySelector(".main");
+const banner = document.querySelector(".banner");
+const bannerGroup = document.querySelector(".group-banner");
 let newWidth = document.documentElement.clientWidth;
 let newHeight = document.documentElement.clientHeight;
 let lastScrollY = window.scrollY;
@@ -10,7 +12,10 @@ hamburger.addEventListener('click', function () {
 
     mobileNav.classList.toggle("is-active");
     hamburger.classList.toggle("is-active");
-    main.classList.toggle("is-active");
+    // main.classList.toggle("is-active");
+    // banner.classList.toggle("is-active");
+    // bannerGroup.classList.toggle("is-active");
+
 
 })
 
@@ -19,8 +24,10 @@ window.addEventListener('resize', function (window) {
     newHeight = document.documentElement.clientHeight;
     if (newWidth > 850) {
         mobileNav.classList.remove("is-active");
-        main.classList.remove("is-active");
+        // main.classList.remove("is-active");
         hamburger.classList.remove("is-active");
+        // banner.classList.remove("is-active");
+        // bannerGroup.classList.remove("is-active");
     }
 });
 

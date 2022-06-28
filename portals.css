@@ -18,6 +18,18 @@ main {
     color: var(--orange);
 }
 
+.main.is-active {
+    margin-top: 2rem;
+}
+
+.banner.is-active {
+    margin-top: 0;
+}
+
+/* .group-banner.is-active {
+    margin-top: 21rem;
+} */
+
 
 
 
