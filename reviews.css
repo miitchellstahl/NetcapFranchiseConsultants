@@ -15,6 +15,12 @@
     color: var(--orange);
 }
 
+
+
+.right {
+    height: 100%;
+}
+
 .main {
     padding-top: 0;
     grid-template-columns: 1fr 1fr 1fr;
@@ -24,10 +30,22 @@
     border: none;
 }
 
-.left p {
+/* .left p {
     font-size: inherit;
     line-height: inherit;
     font-weight: inherit;
+} */
+
+.middle p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.right p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 .separate-add {
@@ -95,7 +113,7 @@
     }
 
     .left p {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .left h1 {

@@ -2,6 +2,7 @@
     grid-template-columns: 1fr 1fr;
     border: 2px solid var(--transparentPurple);
     padding: 20px;
+    padding-top: 0px;
     /* padding-top: 10px; */
     border-radius: 10px;
 }
@@ -63,7 +64,7 @@
     }
 
     .left p {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .left h1 {
@@ -75,7 +76,7 @@
     }
 
     .main {
-        height: 750px;
+        height: 1200px;
     }
 
     footer {
