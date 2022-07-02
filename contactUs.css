@@ -6,6 +6,10 @@
     color: var(--orange);
 }
 
+.left a {
+    color: var(--orange);
+}
+
 #portals {
     color: var(--white);
 }

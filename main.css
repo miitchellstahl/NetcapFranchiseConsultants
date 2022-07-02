@@ -48,6 +48,14 @@ body {
     margin: 0 auto;
 }
 
+.icons a {
+    transition: 400ms ease;
+}
+
+.icons a:hover {
+    opacity: .6;
+}
+
 .header {
     margin-top: 1.375rem;
     display: flex;
@@ -81,6 +89,7 @@ body {
     font-weight: 900;
 }
 
+
 #chevron {
     width: 10px;
     height: 17px;
@@ -100,6 +109,12 @@ body {
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    transition: color 400ms ease;
+}
+
+
+#contactus:hover {
+    opacity: .7;
 }
 
 #home {
@@ -277,6 +292,10 @@ footer a:nth-child(1) {
     }
 
     #contact {
+        display: none;
+    }
+
+    #contactus {
         display: none;
     }
 
