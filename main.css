@@ -89,6 +89,10 @@ body {
     font-weight: 900;
 }
 
+.contact:hover {
+    opacity: .7;
+}
+
 
 #chevron {
     width: 10px;
@@ -112,9 +116,10 @@ body {
     transition: color 400ms ease;
 }
 
-
-#contactus:hover {
-    opacity: .7;
+.animation video {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
 }
 
 #home {
