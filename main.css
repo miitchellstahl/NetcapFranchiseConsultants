@@ -65,13 +65,14 @@ body {
 }
 
 h3 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 30px;
 }
 
 .auto-type {
-    color: var(--orange);
+    color: var(--transparentPurpleNav);
     font-weight: 700;
 }
 
