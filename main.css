@@ -64,6 +64,17 @@ body {
     align-items: center;
 }
 
+h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.auto-type {
+    color: var(--orange);
+    font-weight: 700;
+}
+
 
 .header img {
     width: 170px;
