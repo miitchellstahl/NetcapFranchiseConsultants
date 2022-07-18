@@ -10,6 +10,8 @@ font-family: 'Tiro Devanagari Marathi', serif; */
     box-sizing: border-box;
 }
 
+
+
 html {
     height: 100%;
 }
@@ -65,10 +67,29 @@ body {
 }
 
 h3 {
+    color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 30px;
+}
+
+h3 span {
+
+    color: orange;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+    from {
+        -webkit-mask-position: 150%;
+    }
+
+    to {
+        -webkit-mask-position: -50%;
+    }
 }
 
 .auto-type {
